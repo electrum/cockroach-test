@@ -16,7 +16,7 @@ import static java.net.http.HttpClient.newHttpClient;
 public final class ExtendedCockroachContainer
         extends CockroachContainer
 {
-    private static final String COCKROACH_VERSION = "21.2";
+    private static final String COCKROACH_VERSION = "22.1";
     private static final String COCKROACH_CONTAINER = "cockroachdb/cockroach:latest-v%s".formatted(COCKROACH_VERSION);
     private static final String COCKROACH_LICENSE_URL = "https://register.cockroachdb.com/api/license?kind=demo&version=v%s&clusterid=%s";
     private static final String REGION = "us-east1";
